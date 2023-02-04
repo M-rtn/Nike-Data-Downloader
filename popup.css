@@ -1,0 +1,164 @@
+* {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}  
+
+body {
+  width: 272px;
+  background: #EFF1F3;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+
+.header {
+  height: 41px;
+}
+
+#avatar {
+  width: 28px;
+  height: 28px;
+  float: left;
+  margin: 8px 0 0 8px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#title {
+  padding: 12px 0 0 76px;
+  font-size: 12px;
+}
+
+#error-message {
+  margin:8px;
+  width: 256px;
+  background: #F2DABE;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  display: none;
+}
+
+.error-message span {
+  font-size: 10px;
+  padding: 4px 0 4px 0;
+}
+
+.error-message:hover {
+  background: #ffd099;
+}
+
+.card {
+  margin: 8px 8px 0 8px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 16px 0 16px 8px;
+}
+
+.wrapper {
+  height: 23px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.tag {
+  font-size: 12px;
+}
+
+
+.distance {
+  background: #DCFE67;
+  border-radius: 5px;
+  font-size: 10px;
+  color: #455800;
+  height: 14px;
+  line-height: 14px;
+  padding:0 8px 0 8px;
+}
+
+.wrapper.secondary,
+.icon {
+  gap: 0px;
+  font-size: 12px !important;
+  color: #C6C6C6;
+}
+
+.date,
+.pace,
+.time {
+  margin: 0 8px 0 4px;
+}
+
+.footer {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  bottom: 0;
+  margin-left: 8px;
+}
+
+.bottom-btn {
+  width: 200px;
+  height: 29px;
+  margin: 8px 0 8px 0;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.bottom-btn#show-all {
+  background-color: #DCFE67;
+}
+
+.bottom-btn#show-all:hover {
+  background-color: #eafea3;
+}
+
+.bottom-btn#download-latest {
+  width: 47px;
+  height: 29px;
+  background: #B7D356;
+  border-radius: 50px;
+}
+
+.bottom-btn#download-latest:hover {
+  background: #d3e499;
+}
+
+.bottom-btn#download-latest>.icon {
+  font-size: 16px !important;
+  color: #495422;
+}
+
+#download-all {
+  display: none;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  bottom: 0;
+  background-color: #DCFE67;
+  width: 265px;
+}
